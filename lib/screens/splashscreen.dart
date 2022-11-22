@@ -29,9 +29,9 @@ class SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.white,
+        color: Colors.black,
         child: SpinKitRing(
-          color: Color.fromARGB(255, 0, 0, 0),
+          color: Color.fromARGB(255, 255, 0, 0),
           size: MediaQuery.of(context).size.width * 0.3,
         ),
       ),
